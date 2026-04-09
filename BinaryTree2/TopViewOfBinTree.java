@@ -67,9 +67,6 @@ public interface TopViewOfBinTree {
         root.right.left = new Node(6);
         root.right.right = new Node(7);
 
-        // System.out.println("The height of the tree is: " + height(root));
-        // System.out.println(diameter2(root));
-        // System.out.println(TopView(root, root.left));
         TopView(root);
     }
 
